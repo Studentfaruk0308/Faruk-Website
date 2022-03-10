@@ -7,16 +7,18 @@ Padding: 0;
 Header
 {
 Background-image: url(Images/VLCCPhoto.jpg);
-Height: 110vh;
+Height: 140vh;
 Background-size: cover;
 background-position: center;
 }
 
 .main-nav
 {
-    float: right;
+    position: absolute;
+    float: center;
     list-style: none;
-    margin-top: 120px;
+    margin-top: 580px;
+    margin-left: 40px;
 }
 
 .main-nav li
@@ -45,10 +47,12 @@ background-position: center;
 
 .MyPhoto img
 {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 10px;
     width: 100px;
     height: auto;
-    float:left;
-}
+    }
 
 body
 {
@@ -61,13 +65,7 @@ body
     margin:auto;
 }
 
-.hero
-{
-    position: top;
-    width: 1200px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
+
 
 h1
 {
@@ -80,7 +78,8 @@ h1
 
 .button
 {
-    margin-top: 500px;
+    position: absolute;
+    margin-top: 630px;
     margin-left: 440px;
 }
 
@@ -91,7 +90,7 @@ h1
     color: black;
     text-decoration: none;
     margin-right: 5px;
-    font-size: 13px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -119,3 +118,8 @@ table, th, td
 {
     border: 2px, solid, red
 }
+
+@media screen and (max-width: 850px) {
+    .li {
+        display: block;
+    }}
